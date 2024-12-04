@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+
+img {
+    object-fit: cover;
+}
+
+
+/*header {
+    background: linear-gradient(135deg, #e4afa7, #ffab91);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+
+}*/
+
+header {
+    height: 40vh;
+    width: 100%;
+    background: url(osaka.jpg) no-repeat center;
+    background-size: cover;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.8em;
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+section h3 {
+    color: #555;
+    margin-top: 15px;
+}
+
+
+    ul.a{list-style-type:circle;}
+    ul.b{list-style-type:square;}
+    ul.c{list-style-type:decimal;}
+    ul{
+        padding-left: 20px;
+    }
+    
+
+
+.link-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #ff6f61;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.link-button:hover {
+    background: #ff856f;
+}
+
+.photo-placeholder {
+    width: 100%;
+    height: 200px;
+    background: #eee;
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #ff6f61;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
